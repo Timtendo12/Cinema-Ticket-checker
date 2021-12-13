@@ -43,4 +43,9 @@ chmod +c CinemaTicketChecker.sh
 Voila. If you've set it all correctly it should be running. 
 
 
+![image](https://user-images.githubusercontent.com/41442518/145808011-affd823f-d7e4-4748-9bff-8a067b2dfdac.png)
+(This image was back when I called it SpideyTicketChecker for SM:NWH)
+
+
+
 !!note: The script complete depends on your research. The script does not know if any information you put in there is wrong.!!
