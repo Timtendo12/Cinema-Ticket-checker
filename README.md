@@ -26,7 +26,7 @@ nano CinemaTicketchecker.sh
 Cinema website: Do not put the homepage of your cinema in there. Only when you are super sure the script is able to get information you need.
 If you need information wether tickets are available, its really recommended to put the movie page from your cinema's website there.
 
-Next to the website you need to put the string. What string exactly? The script check wether there are any specific changes. Which means when the tickets are availabe there should be new text appearing like: "Get tickets now", Or the date when you want to go. Put that information in a string to let the script check on the specific changes. If you are not sure on what to put in there. Check other movie pages on your cinema websites and check the differences. Its easier and by most websites the only way to let the script know on what to check. For any other question feel free to open a issue!
+- Next to the website you need to put the string. What string exactly? The script check wether there are any specific changes. Which means when the tickets are availabe there should be new text appearing like: "Get tickets now", Or the date when you want to go. Put that information in a string to let the script check on the specific changes. If you are not sure on what to put in there. Check other movie pages on your cinema websites and check the differences. Its easier and by most websites the only way to let the script know on what to check. For any other question feel free to open a issue!
 
 
 3. Edit permissions
