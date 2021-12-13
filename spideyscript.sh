@@ -8,17 +8,19 @@ NC=`tput sgr0`
 clear
 while [ 1 ];
 do
-    echo "${NC}[${RED}Spidey${BLUE}Ticket${PURPLE}Checker${NC}] - Checking if tickets are available"
-    count=`curl -s "https://www.luxor.nl/films/spider-man-no-way-home" | grep -c "Onze bioscopen"`
+    echo "${NC}[${RED}Cinema${BLUE}Ticket${PURPLE}Checker${NC}] - Checking if tickets are available"
+    count=`curl -s "PUT CINEMA PAGE HERE" | grep -c "PUT STRING HERE"`
 
     if [ "$count" != "0" ]
     then
-       echo "${BLUE}Spidey ${LGREEN}updated! | ${PURPLE} Ticket Checker made by: ${BLUE}Timtendo12"
-       xdg-open https://www.luxor.nl/films/spider-man-no-way-home
-       xdg-open https://www.github.com/Timtendo12
+       echo "${BLUE}Cinema ${LGREEN}updated! | ${PURPLE} Ticket Checker made by: ${BLUE}Timtendo12"
+       xdg-open PUT CINEMA PAGE HERE
+       # 
+       echo "${LGREEN}If this ${BLUE}script ${LGREEN}helped you please star the github rep ${RED}<3"
+       xdg-open https://www.github.com/Timtendo12/Cinema-Ticket-Checker
        exit 0
     else
-    	echo "${NC}[${RED}Spidey${BLUE}Ticket${PURPLE}Checker${NC}] Ticket availability: ${RED}false"      
+    	echo "${NC}[${RED}Cinema${BLUE}Ticket${PURPLE}Checker${NC}] Ticket availability: ${RED}false"      
     fi
     sleep 10s   
 done
