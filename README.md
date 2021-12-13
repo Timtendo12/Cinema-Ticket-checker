@@ -6,11 +6,18 @@ Simple bash script to check changes on websites. Very useful to get to notified 
 
 Using this script is really simple.
 
-1. Create a bash script file. Lets say
+1. Create a bash script file. Or clone the rep
 
+Creating file:
 ```bash
 touch CinemaTicketChecker.sh
 ```
+cloning:
+```bash
+git clone https://github.com/Timtendo12/Cinema-Ticket-checker.git
+```
+
+
 2. Edit the script
 ```bash
 nano CinemaTicketchecker.sh
@@ -23,7 +30,7 @@ Next to the website you need to put the string. What string exactly? The script 
 
 
 3. Edit permissions
-```
+```bash
 chmod +c CinemaTicketChecker.sh
 ```
 - Do not skip this step! Without this step you might not be able to run it in your (linux) terminal.
