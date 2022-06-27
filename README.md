@@ -44,7 +44,7 @@ Voila. If you've set it all correctly it should be running.
 
 
 ![image](https://user-images.githubusercontent.com/41442518/145808011-affd823f-d7e4-4748-9bff-8a067b2dfdac.png)
-(This image was back when I called it SpideyTicketChecker for SM:NWH)
+(This image was from back when I used it to get tickets for SM:NWH)
 
 
 
